@@ -1,0 +1,21 @@
+.details {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.back-btn {
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.coffee-detail {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 50px;
+    background-color: rgba(236, 232, 232, 0.664);
+}

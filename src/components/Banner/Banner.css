@@ -1,0 +1,47 @@
+.banner {
+    background-image: url('./../../assets//images/more/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner-content {
+    color: #FFFFFF;
+    height: 100vh;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    margin: 0 100px;
+}
+
+.banner-title {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.banner-btn {
+    background: #E3B577;
+    margin-top: 10px;
+}
+
+.banner-down {
+    display: flex;
+    background: #ECEAE3;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-card {
+    color: #331A15;
+    padding: 30px;
+}
+
+.banner-card > img {
+    width: 60px;
+}
+
+.card-title {
+    margin: 5px 0;
+}

@@ -1,0 +1,72 @@
+.add-section {
+    background-color: #F4F3F0;
+    margin: 50px 100px;
+    padding: 50px;
+    border-radius: 5px;
+}
+.add-coffee {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.add-dec{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.coffees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coffee {
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.labelCoffee {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.inputCoffee {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.addACoffee {
+    background: #D2B48C;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+}
+
+.addACoffee:hover {
+    background: #eca84e;
+    color: white;
+    border: 2px solid green;
+}
+
+.photo {
+    width: 96%;
+}
+
+.sub-btn {
+    margin-left: 20px;
+}
+
+.btn-back {
+    background: orange;
+    color: white;
+}

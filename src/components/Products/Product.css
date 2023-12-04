@@ -1,0 +1,80 @@
+.populor-porducts {
+    background: #FFFFFF;
+    background-image: url('./../../assets/images/more/4.png'), url('./../../assets//images/more/5.png');
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    height: 150vh;
+    margin: 50px 0;
+}
+
+.product-title {
+    text-align: center;
+}
+
+.product-title>p {
+    color: #1B1A1A;
+}
+
+.product-title>h2 {
+    color: #331A15;
+    margin: 10px 0;
+}
+
+.product-title>button {
+    color: #FFFFFF;
+    background: #E3B577;
+}
+
+.products {
+    margin: 25px 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background: #F5F4F1;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 43%;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.view {
+    background: green;
+}
+.edit {
+    background: orange;
+}
+.delete {
+    background: red;
+}
+
+.coffee-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.coffee-add {
+    text-decoration: none;
+    padding: 10px 15px;
+    background: orange;
+    color: white;
+}

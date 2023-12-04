@@ -1,0 +1,40 @@
+.nav-items {
+    background: #13100D;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items > ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.items > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.active {
+    background: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.default {
+    color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
